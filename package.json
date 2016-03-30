@@ -1,6 +1,6 @@
 {
   "name": "figo-to-ynab",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A tool to get bank statements from figo in ynab format",
   "main": "index.js",
   "directories": {
