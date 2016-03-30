@@ -1,0 +1,38 @@
+{
+  "name": "figo-to-ynab",
+  "version": "0.0.1",
+  "description": "A tool to get bank statements from figo in ynab format",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.2",
+    "bunyan": "^1.8.0",
+    "figo": "^1.3.3",
+    "json2csv": "^3.2.0",
+    "lodash": "^4.6.1",
+    "moment": "^2.12.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha -t 50000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Levino/figo-to-ynab.git"
+  },
+  "keywords": [
+    "figo",
+    "ynab",
+    "converter"
+  ],
+  "author": "Levin Keller",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Levino/figo-to-ynab/issues"
+  },
+  "homepage": "https://github.com/Levino/figo-to-ynab#readme"
+}
