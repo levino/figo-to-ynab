@@ -37,6 +37,7 @@
   "homepage": "https://github.com/Levino/figo-to-ynab#readme",
   "browser": {
     "dtrace-provider": false,
-    "fs": false
+    "fs": false,
+    "source-map-support": false
   }
 }
