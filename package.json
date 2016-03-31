@@ -34,10 +34,5 @@
   "bugs": {
     "url": "https://github.com/Levino/figo-to-ynab/issues"
   },
-  "homepage": "https://github.com/Levino/figo-to-ynab#readme",
-  "browser": {
-    "dtrace-provider": false,
-    "fs": false,
-    "source-map-support": false
-  }
+  "homepage": "https://github.com/Levino/figo-to-ynab#readme"
 }
