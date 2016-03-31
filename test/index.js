@@ -5,7 +5,7 @@ var converter = new Converter(process.env.API_KEY, process.env.API_SECRET, proce
 
 describe('Simple Tests', () => {
     it('should get all transactions', (done) => {
-        converter.extract('./reports', moment("2016-03-30").toDate(), null, (err) => {
+        converter.saveYNABtoDisk('./reports', moment("2016-03-30").toDate(), null, (err) => {
             if (err) {
                 return done(err);
             }
