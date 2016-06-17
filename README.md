@@ -6,7 +6,7 @@ A tool that gets bank statements via the figo api and saves them in YNAB format
 * Figo account & API access
 
 ### Figo set up
-Go to Figo and set up an account. Connect your bank acocunts to Figo.
+Go to Figo (https://home.figo.me/) and set up an account. Connect your bank acocunts to Figo.
 Get API access (email them or apply on some form somewhere)
 
 ### Create a YNAB CSV file
