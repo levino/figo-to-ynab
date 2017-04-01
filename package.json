@@ -9,7 +9,7 @@
   "dependencies": {
     "async": "^2.0.0-rc.2",
     "bunyan": "^1.8.0",
-    "figo": "^1.6.1",
+    "figo": "^1.6.2",
     "json2csv": "^3.2.0",
     "lodash": "^4.6.1",
     "moment": "^2.12.0",
