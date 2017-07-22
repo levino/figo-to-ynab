@@ -8,7 +8,7 @@ var converter = new Converter(process.env.API_KEY, process.env.API_SECRET, proce
 
 describe('Simple Tests', () => {
     it('should get all transactions', (done) => {
-        converter.saveYNABtoDisk('./reports', moment("2016-03-30").toDate(), null, (err) => {
+        converter.saveYNABtoDisk('./reports', moment("2016-01-01").toDate(), null, (err) => {
             if (err) {
                 console.error(err)
                 return done(err);
